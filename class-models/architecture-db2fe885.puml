@@ -1,0 +1,61 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+package player {
+    class Metrics {
+        +getHappinessLevel() : Integer
+        +itemPickedUp(num : Integer)
+        +Metrics()
+    }
+}
+
+package screens {
+    class PlayScreen {
+        +show()
+        +hide()
+        +pause()
+        +pause()
+        +handleInput()
+        +update(delta : Float)
+        +render()
+        +resize(width : Integer, height : Integer)
+        +PlayScreen(game : HeslingtonHustle)
+    }
+}
+
+package sprites {
+    class Character {
+        +world : World
+        +b2body : Body
+        +playerTexture : Texture
+
+        +defineCharacter()
+        +Character(world : World)
+    }
+
+    class TileMap {
+        +getScale() : Float
+        +getProperties() : MapProperties
+        +setupMap() : OrthogonalTiledMapRenderer
+        +TileMap()
+    }
+}
+
+abstract class Item {
+    +setTexture(texture : Texture)
+    +getTexture() : Texture
+    +getPosition() : Vector2
+}
+
+class Interactable {
+    +interact()
+    +toggleHide()
+    +isHidden() : Boolean
+    +dispose()
+    +Interactable(position : Vector2, texture : Texture)
+}
+
+Item <|-- Interactable
+
+@enduml
+
