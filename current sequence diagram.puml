@@ -26,6 +26,9 @@ alt avatar is close enough to interact with the object
  Avatar -> Object: start interaction process
  alt interaction with sleeping place
   Object -> Game: proceed to the next day
+   alt the day is Sunday
+    Game -> Player: display the end screen
+   end
  else
   Object -> Metrics: alter metrics
   Metrics -> Player: display an updated metrics
