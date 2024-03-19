@@ -1,7 +1,7 @@
 body {
     max-width: 100ch;
     background: #fff; /* fallback */
-    background: linear-gradient(90deg, rgba(255,255,255,1) 110ch,
+    background: linear-gradient(90deg, rgba(255,255,255,1) 100ch,
         rgba(0,0,0,0) 100%), url("bg.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -53,5 +53,14 @@ table th {
     /*
     display: none;
     */
+}
+
+.uml {
+    width: 100%;
+    overflow: scroll;
+    white-space: nowrap;
+    border: 1px solid black;
+    padding: 1ex;
+    max-height: 400px;
 }
 
