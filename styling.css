@@ -1,0 +1,57 @@
+body {
+    max-width: 100ch;
+    background: #fff; /* fallback */
+    background: linear-gradient(90deg, rgba(255,255,255,1) 110ch,
+        rgba(0,0,0,0) 100%), url("bg.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+header {
+    margin-bottom: 2ex;
+    padding-bottom: 2ex;
+    border-bottom: 1px dotted;
+}
+
+footer {
+    margin-top: 2ex;
+    padding-top: 2ex;
+    border-top: 1px dotted;
+}
+
+table { border-collapse: collapse; }
+table th, table td { padding-right: 2ex; }
+table th:last-of-type, table td:last-of-type { padding-right: 0; }
+table th {
+    font-style: italic;
+    font-weight: normal;
+    text-align: left;
+    border-bottom: 1px solid;
+    padding-bottom: .5ex;
+}
+
+.linkbox, .mono {
+    font-family: mono;
+    font-size: 95%;
+}
+
+.linkbox {
+    background-color: #f2f2f2;
+    max-width: 30ch;
+    display: inline-block;
+    white-space: nowrap;
+    overflow: scroll;
+    text-overflow: ellipsis ellipsis;
+    height: 1.8em;
+}
+
+#deptinfo { font-style: italic; }
+.todo {
+    background-color: red;
+    /*
+    display: none;
+    */
+}
+
