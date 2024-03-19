@@ -1,0 +1,36 @@
+@startuml
+actor Player as Player
+participant PlayScreen as Game  
+participant Interactable as Object
+
+Player -> Game: select start 
+Game -> Game: scale the game window
+alt close the game
+ Player -> Game: exit the game
+ Game -> Player: close the game application
+end
+Player -> Game: start the game
+Game -> Map: rennder the map
+Game -> Avatar: generate the avatar
+Game -> Object: generate studying places
+Game -> Object: generate sleeping places
+Game -> Object: generate recreational places
+Game -> Object: generate randomly spawned interactables
+Game -> Metrics: generate metrics
+Metrics -> Player: display metrics
+Player -> Avatar: move the avatar
+Avatar -> Map: change the position
+Player -> Game: interact with an object
+Game -> Avatar: check if the avatar is able to interact with the object
+alt avatar is close enough to interact with the object
+ Avatar -> Object: start interaction process
+ alt interaction with sleeping place
+  Object -> Game: proceed to the next day
+ else
+  Object -> Metrics: alter metrics
+  Metrics -> Player: display an updated metrics
+ end
+else
+ Avatar -> Game: do nothing
+end
+@enduml

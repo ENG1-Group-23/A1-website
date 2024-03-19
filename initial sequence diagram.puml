@@ -1,0 +1,74 @@
+@startuml
+actor Player as Player
+
+Player -> Game: select start 
+Game -> Game: scale the game window
+Game -> Player: display main menu
+alt close the game
+ Player -> Game: exit the game
+ Game -> Player: close the game application
+end
+group mdify settings [optional functionality]
+ Player -> Game: modify settings
+ Game -> Player: apply settings
+end
+group customisation [optional functionality]
+ Player -> Game: customise the character appearence
+ Game -> Player: apply customisation
+end
+Player -> Game: start the game
+Game -> Map: rennder the map
+Game -> Avatar: generate the avatar
+Avatar -> Map: render the avatar
+group background music [optional functionality]
+ Game -> Game: play background music
+end
+Game -> Object: generate studying places
+Object -> Map: render studying places
+Game -> Object: generate sleeping places
+Object -> Map: render sleeping places
+Game -> Object: generate recreational places
+Object -> Map: render recreational places
+Game -> Metrics: generate metrics
+Metrics -> Player: display metrics
+Game -> Player: display a tutorial
+alt skip the tutorial
+ Player -> Game: skip the tutorial
+ Game -> Player: close the tutorial
+end
+loop throughout the game day
+ Metrics -> Metrics: deplete the energy
+end
+loop throughout the game
+ Metrics -> Metrics: check the amount of energy
+ alt energy ran out
+  Metrics -> Game: the game is lost
+  Game -> Player: display loosing screen
+ end
+end  
+loop throughout the game day
+ Game -> Game: initiate a random event
+end
+Player -> Avatar: move the avatar
+Avatar -> Map: change the position
+Player -> Game: interact with an object
+Game -> Avatar: check if the avatar is able to interact with the object
+alt avatar is able to interact with the object
+ Avatar -> Object: start interaction process
+ Object -> Player: display interaction process
+ Object -> Metrics: alter metrics
+ Object -> Game: end interaction process
+ Game -> Player: display the end of the interaction process
+else
+ Avatar -> Game: the avatar is not able to interact with the object
+end
+Player -> Game: eventually procced to the end of the last gaming day
+Game -> Metrics: check the metrics
+alt win condition
+ Metrics -> Game: the game is won
+ Game -> Player: display winning screen
+else
+ Metrics -> Game: the game is lost
+ Game -> Player: display loosing screen
+end
+@enduml
