@@ -1,0 +1,1235 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   contentStyleType="text/css"
+   height="769"
+   preserveAspectRatio="none"
+   version="1.1"
+   viewBox="0 0 932.84009 769"
+   width="932.84009"
+   zoomAndPan="magnify"
+   id="svg1206"
+   sodipodi:docname="component-model.svg"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   inkscape:export-filename="../uml/component-model.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1208"
+     pagecolor="#ffffff"
+     bordercolor="#ffffff"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="1"
+     inkscape:pagecheckerboard="1"
+     inkscape:deskcolor="#505050"
+     showgrid="false"
+     inkscape:zoom="1.1393862"
+     inkscape:cx="454.63075"
+     inkscape:cy="382.22334"
+     inkscape:window-width="1920"
+     inkscape:window-height="1136"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g1204" />
+  <defs
+     id="defs917" />
+  <g
+     id="g1204"
+     transform="translate(51.425105,-6.75)">
+    <!--cluster metrics-->
+    <g
+       id="cluster_metrics">
+      <path
+         d="m 212.5,256 h 63 a 3.75,3.75 0 0 1 2.5,2.5 l 7,19.7969 h 114.5 a 2.5,2.5 0 0 1 2.5,2.5 V 647.5 a 2.5,2.5 0 0 1 -2.5,2.5 h -187 a 2.5,2.5 0 0 1 -2.5,-2.5 v -389 a 2.5,2.5 0 0 1 2.5,-2.5"
+         fill="none"
+         style="stroke:#000000;stroke-width:1.5"
+         id="path919" />
+      <line
+         style="stroke:#000000;stroke-width:1.5"
+         x1="210"
+         x2="285"
+         y1="278.29691"
+         y2="278.29691"
+         id="line921" />
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="14px"
+         font-weight="bold"
+         lengthAdjust="spacing"
+         textLength="62"
+         x="214"
+         y="270.99509"
+         id="text923">metrics</text>
+    </g>
+    <!--cluster ui-->
+    <g
+       id="cluster_ui">
+      <path
+         d="m 8.5,264.5 h 16 A 3.75,3.75 0 0 1 27,267 l 7,19.7969 h 149.5 a 2.5,2.5 0 0 1 2.5,2.5 V 499 a 2.5,2.5 0 0 1 -2.5,2.5 H 8.5 A 2.5,2.5 0 0 1 6,499 V 267 a 2.5,2.5 0 0 1 2.5,-2.5"
+         fill="none"
+         style="stroke:#000000;stroke-width:1.5"
+         id="path926" />
+      <line
+         style="stroke:#000000;stroke-width:1.5"
+         x1="6"
+         x2="34"
+         y1="286.79691"
+         y2="286.79691"
+         id="line928" />
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="14px"
+         font-weight="bold"
+         lengthAdjust="spacing"
+         textLength="15"
+         x="10"
+         y="279.49509"
+         id="text930">ui</text>
+    </g>
+    <!--cluster scene-->
+    <g
+       id="cluster_scene">
+      <path
+         d="m 476.5,264.5 h 47 a 3.75,3.75 0 0 1 2.5,2.5 l 7,19.7969 h 244.5 a 2.5,2.5 0 0 1 2.5,2.5 V 772.5 a 2.5,2.5 0 0 1 -2.5,2.5 h -301 A 2.5,2.5 0 0 1 474,772.5 V 267 a 2.5,2.5 0 0 1 2.5,-2.5"
+         fill="none"
+         style="stroke:#000000;stroke-width:1.5"
+         id="path933" />
+      <line
+         style="stroke:#000000;stroke-width:1.5"
+         x1="474"
+         x2="533"
+         y1="286.79691"
+         y2="286.79691"
+         id="line935" />
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="14px"
+         font-weight="bold"
+         lengthAdjust="spacing"
+         textLength="46"
+         x="478"
+         y="279.49509"
+         id="text937">scene</text>
+    </g>
+    <!--entity MetricController-->
+    <g
+       id="elem_MetricController">
+      <rect
+         fill="#f1f1f1"
+         height="62.5938"
+         rx="2.5"
+         ry="2.5"
+         style="stroke:#181818;stroke-width:0.5"
+         width="159"
+         x="226.5"
+         y="291"
+         id="rect940" />
+      <rect
+         fill="#f1f1f1"
+         height="10"
+         style="stroke:#181818;stroke-width:0.5"
+         width="15"
+         x="365.5"
+         y="296"
+         id="rect942" />
+      <rect
+         fill="#f1f1f1"
+         height="2"
+         style="stroke:#181818;stroke-width:0.5"
+         width="4"
+         x="363.5"
+         y="298"
+         id="rect944" />
+      <rect
+         fill="#f1f1f1"
+         height="2"
+         style="stroke:#181818;stroke-width:0.5"
+         width="4"
+         x="363.5"
+         y="302"
+         id="rect946" />
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="14px"
+         font-style="italic"
+         lengthAdjust="spacing"
+         textLength="89"
+         x="256.5"
+         y="323.99509"
+         id="text948">«Controller»</text>
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="14px"
+         lengthAdjust="spacing"
+         textLength="119"
+         x="241.5"
+         y="340.29199"
+         id="text950">MetricController</text>
+    </g>
+    <!--entity MetricUpdater-->
+    <g
+       id="elem_MetricUpdater">
+      <rect
+         fill="#f1f1f1"
+         height="62.5938"
+         rx="2.5"
+         ry="2.5"
+         style="stroke:#181818;stroke-width:0.5"
+         width="144"
+         x="234"
+         y="431"
+         id="rect953" />
+      <rect
+         fill="#f1f1f1"
+         height="10"
+         style="stroke:#181818;stroke-width:0.5"
+         width="15"
+         x="358"
+         y="436"
+         id="rect955" />
+      <rect
+         fill="#f1f1f1"
+         height="2"
+         style="stroke:#181818;stroke-width:0.5"
+         width="4"
+         x="356"
+         y="438"
+         id="rect957" />
+      <rect
+         fill="#f1f1f1"
+         height="2"
+         style="stroke:#181818;stroke-width:0.5"
+         width="4"
+         x="356"
+         y="442"
+         id="rect959" />
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="14px"
+         font-style="italic"
+         lengthAdjust="spacing"
+         textLength="61"
+         x="270.5"
+         y="463.99509"
+         id="text961">«Model»</text>
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="14px"
+         lengthAdjust="spacing"
+         textLength="104"
+         x="249"
+         y="480.29199"
+         id="text963">MetricUpdater</text>
+    </g>
+    <!--entity MetricListener-->
+    <g
+       id="elem_MetricListener">
+      <rect
+         fill="#f1f1f1"
+         height="62.5938"
+         rx="2.5"
+         ry="2.5"
+         style="stroke:#181818;stroke-width:0.5"
+         width="145"
+         x="233.5"
+         y="571"
+         id="rect966" />
+      <rect
+         fill="#f1f1f1"
+         height="10"
+         style="stroke:#181818;stroke-width:0.5"
+         width="15"
+         x="358.5"
+         y="576"
+         id="rect968" />
+      <rect
+         fill="#f1f1f1"
+         height="2"
+         style="stroke:#181818;stroke-width:0.5"
+         width="4"
+         x="356.5"
+         y="578"
+         id="rect970" />
+      <rect
+         fill="#f1f1f1"
+         height="2"
+         style="stroke:#181818;stroke-width:0.5"
+         width="4"
+         x="356.5"
+         y="582"
+         id="rect972" />
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="14px"
+         font-style="italic"
+         lengthAdjust="spacing"
+         textLength="52"
+         x="275"
+         y="603.99512"
+         id="text974">«View»</text>
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="14px"
+         lengthAdjust="spacing"
+         textLength="105"
+         x="248.5"
+         y="620.29199"
+         id="text976">MetricListener</text>
+    </g>
+    <!--entity OverlayFactory-->
+    <g
+       id="elem_OverlayFactory">
+      <rect
+         fill="#f1f1f1"
+         height="46.296902"
+         rx="2.5"
+         ry="2.5"
+         style="stroke:#181818;stroke-width:0.5"
+         width="148"
+         x="22"
+         y="299.5"
+         id="rect979" />
+      <rect
+         fill="#f1f1f1"
+         height="10"
+         style="stroke:#181818;stroke-width:0.5"
+         width="15"
+         x="150"
+         y="304.5"
+         id="rect981" />
+      <rect
+         fill="#f1f1f1"
+         height="2"
+         style="stroke:#181818;stroke-width:0.5"
+         width="4"
+         x="148"
+         y="306.5"
+         id="rect983" />
+      <rect
+         fill="#f1f1f1"
+         height="2"
+         style="stroke:#181818;stroke-width:0.5"
+         width="4"
+         x="148"
+         y="310.5"
+         id="rect985" />
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="14px"
+         lengthAdjust="spacing"
+         textLength="108"
+         x="37"
+         y="332.49509"
+         id="text987">OverlayFactory</text>
+    </g>
+    <!--entity Overlay-->
+    <g
+       id="elem_Overlay">
+      <rect
+         fill="#f1f1f1"
+         height="46.296902"
+         rx="2.5"
+         ry="2.5"
+         style="stroke:#181818;stroke-width:0.5"
+         width="94"
+         x="68"
+         y="439.5"
+         id="rect990" />
+      <rect
+         fill="#f1f1f1"
+         height="10"
+         style="stroke:#181818;stroke-width:0.5"
+         width="15"
+         x="142"
+         y="444.5"
+         id="rect992" />
+      <rect
+         fill="#f1f1f1"
+         height="2"
+         style="stroke:#181818;stroke-width:0.5"
+         width="4"
+         x="140"
+         y="446.5"
+         id="rect994" />
+      <rect
+         fill="#f1f1f1"
+         height="2"
+         style="stroke:#181818;stroke-width:0.5"
+         width="4"
+         x="140"
+         y="450.5"
+         id="rect996" />
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="14px"
+         lengthAdjust="spacing"
+         textLength="54"
+         x="83"
+         y="472.49509"
+         id="text998">Overlay</text>
+    </g>
+    <!--entity AreaFactory-->
+    <g
+       id="elem_AreaFactory">
+      <rect
+         fill="#f1f1f1"
+         height="46.296902"
+         rx="2.5"
+         ry="2.5"
+         style="stroke:#181818;stroke-width:0.5"
+         width="127"
+         x="636.5"
+         y="299.5"
+         id="rect1001" />
+      <rect
+         fill="#f1f1f1"
+         height="10"
+         style="stroke:#181818;stroke-width:0.5"
+         width="15"
+         x="743.5"
+         y="304.5"
+         id="rect1003" />
+      <rect
+         fill="#f1f1f1"
+         height="2"
+         style="stroke:#181818;stroke-width:0.5"
+         width="4"
+         x="741.5"
+         y="306.5"
+         id="rect1005" />
+      <rect
+         fill="#f1f1f1"
+         height="2"
+         style="stroke:#181818;stroke-width:0.5"
+         width="4"
+         x="741.5"
+         y="310.5"
+         id="rect1007" />
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="14px"
+         lengthAdjust="spacing"
+         textLength="87"
+         x="651.5"
+         y="332.49509"
+         id="text1009">AreaFactory</text>
+    </g>
+    <!--entity Area-->
+    <g
+       id="elem_Area">
+      <rect
+         fill="#f1f1f1"
+         height="46.296902"
+         rx="2.5"
+         ry="2.5"
+         style="stroke:#181818;stroke-width:0.5"
+         width="73"
+         x="601.5"
+         y="439.5"
+         id="rect1012" />
+      <rect
+         fill="#f1f1f1"
+         height="10"
+         style="stroke:#181818;stroke-width:0.5"
+         width="15"
+         x="654.5"
+         y="444.5"
+         id="rect1014" />
+      <rect
+         fill="#f1f1f1"
+         height="2"
+         style="stroke:#181818;stroke-width:0.5"
+         width="4"
+         x="652.5"
+         y="446.5"
+         id="rect1016" />
+      <rect
+         fill="#f1f1f1"
+         height="2"
+         style="stroke:#181818;stroke-width:0.5"
+         width="4"
+         x="652.5"
+         y="450.5"
+         id="rect1018" />
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="14px"
+         lengthAdjust="spacing"
+         textLength="33"
+         x="616.5"
+         y="472.49509"
+         id="text1020">Area</text>
+    </g>
+    <!--entity Item-->
+    <g
+       id="elem_Item">
+      <rect
+         fill="#f1f1f1"
+         height="46.296902"
+         rx="2.5"
+         ry="2.5"
+         style="stroke:#181818;stroke-width:0.5"
+         width="74"
+         x="543"
+         y="579.5"
+         id="rect1023" />
+      <rect
+         fill="#f1f1f1"
+         height="10"
+         style="stroke:#181818;stroke-width:0.5"
+         width="15"
+         x="597"
+         y="584.5"
+         id="rect1025" />
+      <rect
+         fill="#f1f1f1"
+         height="2"
+         style="stroke:#181818;stroke-width:0.5"
+         width="4"
+         x="595"
+         y="586.5"
+         id="rect1027" />
+      <rect
+         fill="#f1f1f1"
+         height="2"
+         style="stroke:#181818;stroke-width:0.5"
+         width="4"
+         x="595"
+         y="590.5"
+         id="rect1029" />
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="14px"
+         lengthAdjust="spacing"
+         textLength="34"
+         x="558"
+         y="612.49512"
+         id="text1031">Item</text>
+    </g>
+    <!--entity Character-->
+    <g
+       id="elem_Character">
+      <rect
+         fill="#f1f1f1"
+         height="46.296902"
+         rx="2.5"
+         ry="2.5"
+         style="stroke:#181818;stroke-width:0.5"
+         width="111"
+         x="490.5"
+         y="299.5"
+         id="rect1034" />
+      <rect
+         fill="#f1f1f1"
+         height="10"
+         style="stroke:#181818;stroke-width:0.5"
+         width="15"
+         x="581.5"
+         y="304.5"
+         id="rect1036" />
+      <rect
+         fill="#f1f1f1"
+         height="2"
+         style="stroke:#181818;stroke-width:0.5"
+         width="4"
+         x="579.5"
+         y="306.5"
+         id="rect1038" />
+      <rect
+         fill="#f1f1f1"
+         height="2"
+         style="stroke:#181818;stroke-width:0.5"
+         width="4"
+         x="579.5"
+         y="310.5"
+         id="rect1040" />
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="14px"
+         lengthAdjust="spacing"
+         textLength="71"
+         x="505.5"
+         y="332.49509"
+         id="text1042">Character</text>
+    </g>
+    <!--entity GameMap-->
+    <g
+       id="elem_GameMap">
+      <rect
+         fill="#f1f1f1"
+         height="46.296902"
+         rx="2.5"
+         ry="2.5"
+         style="stroke:#181818;stroke-width:0.5"
+         width="112"
+         x="652"
+         y="579.5"
+         id="rect1045" />
+      <rect
+         fill="#f1f1f1"
+         height="10"
+         style="stroke:#181818;stroke-width:0.5"
+         width="15"
+         x="744"
+         y="584.5"
+         id="rect1047" />
+      <rect
+         fill="#f1f1f1"
+         height="2"
+         style="stroke:#181818;stroke-width:0.5"
+         width="4"
+         x="742"
+         y="586.5"
+         id="rect1049" />
+      <rect
+         fill="#f1f1f1"
+         height="2"
+         style="stroke:#181818;stroke-width:0.5"
+         width="4"
+         x="742"
+         y="590.5"
+         id="rect1051" />
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="14px"
+         lengthAdjust="spacing"
+         textLength="72"
+         x="667"
+         y="612.49512"
+         id="text1053">GameMap</text>
+    </g>
+    <!--entity Interactable-->
+    <g
+       id="elem_Interactable">
+      <rect
+         fill="#f1f1f1"
+         height="46.296902"
+         rx="2.5"
+         ry="2.5"
+         style="stroke:#181818;stroke-width:0.5"
+         width="129"
+         x="515.5"
+         y="713"
+         id="rect1056" />
+      <rect
+         fill="#f1f1f1"
+         height="10"
+         style="stroke:#181818;stroke-width:0.5"
+         width="15"
+         x="624.5"
+         y="718"
+         id="rect1058" />
+      <rect
+         fill="#f1f1f1"
+         height="2"
+         style="stroke:#181818;stroke-width:0.5"
+         width="4"
+         x="622.5"
+         y="720"
+         id="rect1060" />
+      <rect
+         fill="#f1f1f1"
+         height="2"
+         style="stroke:#181818;stroke-width:0.5"
+         width="4"
+         x="622.5"
+         y="724"
+         id="rect1062" />
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="14px"
+         lengthAdjust="spacing"
+         textLength="89"
+         x="530.5"
+         y="745.99512"
+         id="text1064">Interactable</text>
+    </g>
+    <!--entity Game-->
+    <g
+       id="elem_Game">
+      <rect
+         fill="#f1f1f1"
+         height="46.296902"
+         rx="2.5"
+         ry="2.5"
+         style="stroke:#181818;stroke-width:0.5"
+         width="82"
+         x="505"
+         y="147"
+         id="rect1067" />
+      <rect
+         fill="#f1f1f1"
+         height="10"
+         style="stroke:#181818;stroke-width:0.5"
+         width="15"
+         x="567"
+         y="152"
+         id="rect1069" />
+      <rect
+         fill="#f1f1f1"
+         height="2"
+         style="stroke:#181818;stroke-width:0.5"
+         width="4"
+         x="565"
+         y="154"
+         id="rect1071" />
+      <rect
+         fill="#f1f1f1"
+         height="2"
+         style="stroke:#181818;stroke-width:0.5"
+         width="4"
+         x="565"
+         y="158"
+         id="rect1073" />
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="14px"
+         lengthAdjust="spacing"
+         textLength="42"
+         x="520"
+         y="179.9951"
+         id="text1075">Game</text>
+    </g>
+    <!--entity Player-->
+    <g
+       id="elem_Player">
+      <rect
+         fill="#f1f1f1"
+         height="62.5938"
+         rx="2.5"
+         ry="2.5"
+         style="stroke:#181818;stroke-width:0.5"
+         width="121"
+         x="485.5"
+         y="7"
+         id="rect1078" />
+      <rect
+         fill="#f1f1f1"
+         height="10"
+         style="stroke:#181818;stroke-width:0.5"
+         width="15"
+         x="586.5"
+         y="12"
+         id="rect1080" />
+      <rect
+         fill="#f1f1f1"
+         height="2"
+         style="stroke:#181818;stroke-width:0.5"
+         width="4"
+         x="584.5"
+         y="14"
+         id="rect1082" />
+      <rect
+         fill="#f1f1f1"
+         height="2"
+         style="stroke:#181818;stroke-width:0.5"
+         width="4"
+         x="584.5"
+         y="18"
+         id="rect1084" />
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="14px"
+         font-style="italic"
+         lengthAdjust="spacing"
+         textLength="81"
+         x="500.5"
+         y="39.995098"
+         id="text1086">«End User»</text>
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="14px"
+         lengthAdjust="spacing"
+         textLength="44"
+         x="519"
+         y="56.292"
+         id="text1088">Player</text>
+    </g>
+    <!--entity Screen-->
+    <g
+       id="elem_Screen">
+      <rect
+         fill="#f1f1f1"
+         height="46.296902"
+         rx="2.5"
+         ry="2.5"
+         style="stroke:#181818;stroke-width:0.5"
+         width="90"
+         x="261"
+         y="713"
+         id="rect1091" />
+      <rect
+         fill="#f1f1f1"
+         height="10"
+         style="stroke:#181818;stroke-width:0.5"
+         width="15"
+         x="331"
+         y="718"
+         id="rect1093" />
+      <rect
+         fill="#f1f1f1"
+         height="2"
+         style="stroke:#181818;stroke-width:0.5"
+         width="4"
+         x="329"
+         y="720"
+         id="rect1095" />
+      <rect
+         fill="#f1f1f1"
+         height="2"
+         style="stroke:#181818;stroke-width:0.5"
+         width="4"
+         x="329"
+         y="724"
+         id="rect1097" />
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="14px"
+         lengthAdjust="spacing"
+         textLength="50"
+         x="276"
+         y="745.99512"
+         id="text1099">Screen</text>
+    </g>
+    <!--link MetricUpdater to MetricListener-->
+    <g
+       id="link_MetricUpdater_MetricListener">
+      <path
+         d="m 306,494.127 c 0,22.869 0,47.984 0,70.832"
+         fill="none"
+         id="MetricUpdater-to-MetricListener"
+         style="stroke:#181818;stroke-width:1" />
+      <polygon
+         fill="#181818"
+         points="306,570.959 310,561.959 306,565.959 302,561.959 "
+         style="stroke:#181818;stroke-width:1"
+         id="polygon1103" />
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="13px"
+         lengthAdjust="spacing"
+         textLength="52"
+         x="311"
+         y="537.06689"
+         id="text1105">updates</text>
+    </g>
+    <!--link MetricController to MetricUpdater-->
+    <g
+       id="link_MetricController_MetricUpdater">
+      <path
+         d="m 306,354.127 c 0,22.869 0,47.984 0,70.832"
+         fill="none"
+         id="MetricController-to-MetricUpdater"
+         style="stroke:#181818;stroke-width:1" />
+      <polygon
+         fill="#181818"
+         points="306,430.959 310,421.959 306,425.959 302,421.959 "
+         style="stroke:#181818;stroke-width:1"
+         id="polygon1109" />
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="13px"
+         lengthAdjust="spacing"
+         textLength="49"
+         x="311"
+         y="397.06689"
+         id="text1111">informs</text>
+    </g>
+    <!--link OverlayFactory to Overlay-->
+    <g
+       id="link_OverlayFactory_Overlay">
+      <path
+         d="m 99.053,345.672 c 3.545,25.752 8.5417,62.0381 12.0837,87.7671"
+         fill="none"
+         id="OverlayFactory-to-Overlay"
+         style="stroke:#181818;stroke-width:1" />
+      <polygon
+         fill="#181818"
+         points="111.955,439.383 114.6902,429.9216 111.2731,434.4297 106.765,431.0126 "
+         style="stroke:#181818;stroke-width:1"
+         id="polygon1115" />
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="13px"
+         lengthAdjust="spacing"
+         textLength="48"
+         x="112"
+         y="397.06689"
+         id="text1117">creates</text>
+    </g>
+    <!--link AreaFactory to Area-->
+    <g
+       id="link_AreaFactory_Area">
+      <path
+         d="m 690.039,345.672 c -11.57,25.752 -28.0842,62.509 -39.6432,88.238"
+         fill="none"
+         id="AreaFactory-to-Area"
+         style="stroke:#181818;stroke-width:1" />
+      <polygon
+         fill="#181818"
+         points="647.937,439.383 655.2739,432.8126 649.986,434.8221 647.9765,429.5342 "
+         style="stroke:#181818;stroke-width:1"
+         id="polygon1121" />
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="13px"
+         lengthAdjust="spacing"
+         textLength="48"
+         x="678"
+         y="397.06689"
+         id="text1123">creates</text>
+    </g>
+    <!--link Area to Item-->
+    <g
+       id="link_Area_Item">
+      <path
+         d="M 615.566,485.696 C 606.114,496.381 595.945,509.919 590,524 c -7.44,17.622 -9.5132,33.3465 -10.0582,49.3045"
+         fill="none"
+         id="Area-to-Item"
+         style="stroke:#181818;stroke-width:1" />
+      <polygon
+         fill="#181818"
+         points="579.737,579.301 584.0419,570.4428 579.9077,574.3039 576.0465,570.1697 "
+         style="stroke:#181818;stroke-width:1"
+         id="polygon1127" />
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="13px"
+         lengthAdjust="spacing"
+         textLength="54"
+         x="595"
+         y="537.06689"
+         id="text1129">contains</text>
+    </g>
+    <!--link Area to GameMap-->
+    <g
+       id="link_Area_GameMap">
+      <path
+         d="m 649.247,485.672 c 13.062,25.752 31.7687,62.631 44.8197,88.36"
+         fill="none"
+         id="Area-to-GameMap"
+         style="stroke:#181818;stroke-width:1" />
+      <polygon
+         fill="#181818"
+         points="696.781,579.383 696.2769,569.5471 694.5191,574.9239 689.1423,573.1661 "
+         style="stroke:#181818;stroke-width:1"
+         id="polygon1133" />
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="13px"
+         lengthAdjust="spacing"
+         textLength="60"
+         x="683"
+         y="537.06689"
+         id="text1135">manages</text>
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="13px"
+         lengthAdjust="spacing"
+         textLength="60"
+         x="683"
+         y="537.06689"
+         id="text1135-5"
+         transform="translate(-581.51067,192.73949)"
+         style="letter-spacing:9.23px">updates</text>
+    </g>
+    <!--link Item to Interactable-->
+    <g
+       id="link_Item_Interactable">
+      <path
+         d="m 580,625.51 c 0,24.274 0,57.105 0,81.408"
+         fill="none"
+         id="Item-to-Interactable"
+         style="stroke:#181818;stroke-width:1" />
+      <polygon
+         fill="#181818"
+         points="580,712.918 584,703.918 580,707.918 576,703.918 "
+         style="stroke:#181818;stroke-width:1"
+         id="polygon1139" />
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="13px"
+         lengthAdjust="spacing"
+         textLength="69"
+         x="585"
+         y="679.06689"
+         id="text1141">represents</text>
+    </g>
+    <!--link Game to MetricController-->
+    <g
+       id="link_Game_MetricController">
+      <path
+         d="m 510.845,193.045 c -41.143,25.8 -104.4468,65.4963 -150.7758,94.5493"
+         fill="none"
+         id="Game-to-MetricController"
+         style="stroke:#181818;stroke-width:1" />
+      <polygon
+         fill="#181818"
+         points="354.986,290.782 364.7359,289.3893 359.222,288.1256 360.4857,282.6117 "
+         style="stroke:#181818;stroke-width:1"
+         id="polygon1145" />
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="13px"
+         lengthAdjust="spacing"
+         textLength="30"
+         x="467"
+         y="236.06689"
+         id="text1147">uses</text>
+    </g>
+    <!--link Game to OverlayFactory-->
+    <g
+       id="link_Game_OverlayFactory">
+      <path
+         d="M 504.766,175.765 C 439.952,184.274 311.192,205.339 210,248 c -31.247,13.173 -58.5865,31.2149 -80.7495,47.6019"
+         fill="none"
+         id="Game-to-OverlayFactory"
+         style="stroke:#181818;stroke-width:1" />
+      <polygon
+         fill="#181818"
+         points="124.426,299.169 134.0408,297.0346 128.4464,296.1964 129.2846,290.602 "
+         style="stroke:#181818;stroke-width:1"
+         id="polygon1151" />
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="13px"
+         lengthAdjust="spacing"
+         textLength="30"
+         x="277"
+         y="236.06689"
+         id="text1153">uses</text>
+    </g>
+    <!--link Game to AreaFactory-->
+    <g
+       id="link_Game_AreaFactory">
+      <path
+         d="m 587.427,188.491 c 17.278,8.657 36.733,20.318 51.573,34.509 23.114,22.104 38.4667,49.3312 48.7387,70.8952"
+         fill="none"
+         id="Game-to-AreaFactory"
+         style="stroke:#181818;stroke-width:1" />
+      <polygon
+         fill="#181818"
+         points="690.319,299.312 690.0598,289.4666 688.1687,294.798 682.8373,292.907 "
+         style="stroke:#181818;stroke-width:1"
+         id="polygon1157" />
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="13px"
+         lengthAdjust="spacing"
+         textLength="30"
+         x="659"
+         y="236.06689"
+         id="text1159">uses</text>
+    </g>
+    <!--link Game to Character-->
+    <g
+       id="link_Game_Character">
+      <path
+         d="m 546,193.207 c 0,28.454 0,71.497 0,99.995"
+         fill="none"
+         id="Game-to-Character"
+         style="stroke:#181818;stroke-width:1" />
+      <polygon
+         fill="#181818"
+         points="546,299.202 550,290.202 546,294.202 542,290.202 "
+         style="stroke:#181818;stroke-width:1"
+         id="polygon1163" />
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="13px"
+         lengthAdjust="spacing"
+         textLength="79"
+         x="551"
+         y="236.06689"
+         id="text1165">maniplautes</text>
+    </g>
+    <!--link Game to Area-->
+    <g
+       id="link_Game_Area">
+      <path
+         d="M 587.049,170.913 C 641.677,173.288 736.536,186.64 781,248 c 27.644,38.148 17.794,62.379 0,106 -18.887,46.301 -65.1195,74.392 -100.8825,90.713"
+         fill="none"
+         id="Game-to-Area"
+         style="stroke:#181818;stroke-width:1" />
+      <path
+         d="M 497.84772,162.16062 C -268.59512,-18.905061 -118.43346,673.33797 260.81872,744.82281"
+         fill="none"
+         id="Game-to-Area-3"
+         style="stroke:#181818;stroke-width:1"
+         sodipodi:nodetypes="cc" />
+      <polygon
+         fill="#181818"
+         points="674.659,447.204 684.5074,447.1064 679.2077,445.1281 681.186,439.8285 "
+         style="stroke:#181818;stroke-width:1"
+         id="polygon1169" />
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="13px"
+         lengthAdjust="spacing"
+         textLength="79"
+         x="803"
+         y="327.06689"
+         id="text1171">manipulates</text>
+    </g>
+    <!--link Player to Game-->
+    <g
+       id="link_Player_Game">
+      <path
+         d="m 546,70.19 c 0,23.485 0,49.328 0,70.444"
+         fill="none"
+         id="Player-to-Game"
+         style="stroke:#181818;stroke-width:1" />
+      <polygon
+         fill="#181818"
+         points="546,146.634 550,137.634 546,141.634 542,137.634 "
+         style="stroke:#181818;stroke-width:1"
+         id="polygon1175" />
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="13px"
+         lengthAdjust="spacing"
+         textLength="51"
+         x="551"
+         y="113.0669"
+         id="text1177">controls</text>
+    </g>
+    <!--link Overlay to Screen-->
+    <path
+       d="m 113.681,485.535 c -1.167,38.891 1.73,120.499 41.319,172.465 26.036,34.1756 65.7794,52.5674 100.0334,63.6502"
+       fill="none"
+       id="Overlay-to-Screen"
+       style="stroke:#181818;stroke-width:1" />
+    <polygon
+       fill="#181818"
+       points="255.9848,721.958 250.9477,724.5324 260.742,723.4972 253.4104,716.9209 "
+       style="stroke:#181818;stroke-width:1"
+       id="polygon1181" />
+    <text
+       fill="#000000"
+       font-family="sans-serif"
+       font-size="13px"
+       lengthAdjust="spacing"
+       textLength="49"
+       x="160"
+       y="607.06689"
+       id="text1183"
+       transform="translate(-105.74841,-69.94583)">informs</text>
+    <polygon
+       fill="#181818"
+       points="255.9848,721.958 250.9477,724.5324 260.742,723.4972 253.4104,716.9209 "
+       style="stroke:#181818;stroke-width:1"
+       id="polygon1181-7"
+       transform="rotate(-21.750737,-1080.345,-188.87694)" />
+    <!--link MetricListener to Screen-->
+    <g
+       id="link_MetricListener_Screen">
+      <path
+         d="m 306,634.331 c 0,24.14 0,51.1276 0,72.66"
+         fill="none"
+         id="MetricListener-to-Screen"
+         style="stroke:#181818;stroke-width:1" />
+      <polygon
+         fill="#181818"
+         points="306,712.991 310,703.991 306,707.991 302,703.991 "
+         style="stroke:#181818;stroke-width:1"
+         id="polygon1187" />
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="13px"
+         lengthAdjust="spacing"
+         textLength="49"
+         x="311"
+         y="679.06689"
+         id="text1189">informs</text>
+    </g>
+    <!--link Area to Screen-->
+    <g
+       id="link_Area_Screen">
+      <path
+         d="M 601.458,482.146 C 565.666,501.451 510.721,533.945 470,571 c -36.298,33.03 -33.517,52.08 -68,87 -19.966,20.219 -40.2849,36.6302 -59.8259,51.175"
+         fill="none"
+         id="Area-to-Screen"
+         style="stroke:#181818;stroke-width:1" />
+      <polygon
+         fill="#181818"
+         points="337.361,712.7575 346.969,710.5925 341.3719,709.7721 342.1923,704.175 "
+         style="stroke:#181818;stroke-width:1"
+         id="polygon1193" />
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="13px"
+         lengthAdjust="spacing"
+         textLength="49"
+         x="475"
+         y="607.06689"
+         id="text1195"
+         transform="translate(48.803004,-118.7934)">informs</text>
+    </g>
+    <!--link Character to Area-->
+    <g
+       id="link_Character_Area">
+      <path
+         d="m 550.262,345.523 c 3.863,16.272 10.68,38.46 21.738,55.477 9.486,14.598 18.6971,24.1602 31.2411,34.6212"
+         fill="none"
+         id="Character-to-Area"
+         style="stroke:#181818;stroke-width:1" />
+      <polygon
+         fill="#181818"
+         points="607.849,439.464 603.4989,430.6279 604.009,436.2617 598.3752,436.7718 "
+         style="stroke:#181818;stroke-width:1"
+         id="polygon1199" />
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="13px"
+         lengthAdjust="spacing"
+         textLength="80"
+         x="577"
+         y="397.06689"
+         id="text1201">exists within</text>
+    </g>
+    <!--SRC=[TLF1JWCX4Btp5SIBf_w0QPgOHes9ZIQctd4xMY8B15XhO_ntXu7T0jtkOHFclPbvRmQiwBx49_0UWfETvx-CuzUPtXeDEl0DnTT61sUK0iUNozDXjPfbR-rE1A9kp0xK1TQJz04qqTua7915jBh4Oh5gwJVyYWy4-wiYev1uIXhBn1ofFuphCUUFCPjT3_BCyFCtE2MEzw8BnXtdmQIqPbBN7A9-dOEaiUZdExHmrl8McVFz8jA47WFqJMYz5mxJmJNn1z73HjYsW4OcqiMxWcIaw4ykuhcsCB88ZWeIZ2CNKhTuRXiPlT1eEnCeZmeK2gYG0-l0exWqhTe1O_5VBBNODDq57njCd6OhCup2xWmw3JFhbrQ98PmLcD11fH4Lgb-mFzthExtZMq_lXENWEA1fWEYapdx5gODcRBnBCIF5wclSF8jBj6ajS-1ajjux_61LpmyoxAL6STTZScHb8sMTVm00]-->
+  </g>
+</svg>

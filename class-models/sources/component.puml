@@ -1,0 +1,55 @@
+@startuml
+
+package metrics {
+    component MetricController <<Controller>>
+    component MetricUpdater <<Model>>
+    component MetricListener <<View>>
+
+    MetricUpdater --> MetricListener : " updates"
+    MetricController --> MetricUpdater : " informs"
+}
+
+package ui {
+    component OverlayFactory
+    component Overlay
+
+    OverlayFactory --> Overlay : " creates"
+}
+
+package scene {
+    component AreaFactory
+    component Area
+    component Item
+    component Character
+    component GameMap
+    component Interactable
+
+    AreaFactory --> Area : " creates"
+    Area --> Item : " contains"
+    Area --> GameMap: " manages"
+    Item --> Interactable : " represents"
+}
+
+component Game
+
+Game --> MetricController : " uses"
+Game --> OverlayFactory : " uses"
+Game --> AreaFactory: " uses"
+Game --> Character: " maniplautes"
+Game --> Area: " manipulates"
+
+component Player <<End User>>
+
+Player --> Game : " controls"
+
+component Screen
+
+Overlay --> Screen : " informs"
+MetricListener --> Screen : " informs"
+Area --> Screen : " informs"
+Character --> Area : " exists within"
+
+Screen --> Player : " informs"
+
+@enduml
+
