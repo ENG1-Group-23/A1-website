@@ -1,0 +1,17 @@
+@startgantt
+
+printscale daily
+hide resources names
+Projectscale daily zoom 1.5
+
+Project starts 2024-02-15
+[Website] on {Oliver} lasts 3 days
+[Risk Assessment] starts 2024-02-15 and ends 2024-02-29
+[Planning] on {Albara} {Rafael} {George} starts 2024-02-19 and ends 2024-03-21
+[Requirements] on {Praj} {Denys} {George} {Albara} starts 2024-02-15 and ends 2024-03-01
+then [Architecture] on {Praj} {Denys} {Oliver} {Albara} {Shivan} {Rafael} ends 2024-03-05
+then [Implementation] on {Praj} {Denys} {Oliver} {Albara} {Shivan} {Rafael} ends 2024-03-19
+then [Final Checks] ends 2024-03-21
+
+@endgantt
+

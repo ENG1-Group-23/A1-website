@@ -10,7 +10,7 @@ alt close the game
  Game -> Player: close the game application
 end
 Player -> Game: start the game
-Game -> Map: rennder the map
+Game -> Map: render the map
 Game -> Avatar: generate the avatar
 Game -> Object: generate studying places
 Game -> Object: generate sleeping places

@@ -17,7 +17,7 @@ group customisation [optional functionality]
  Game -> Player: apply customisation
 end
 Player -> Game: start the game
-Game -> Map: rennder the map
+Game -> Map: render the map
 Game -> Avatar: generate the avatar
 Avatar -> Map: render the avatar
 group background music [optional functionality]
