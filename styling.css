@@ -51,5 +51,44 @@ td {
     border: 1px solid black;
     padding: 1ex;
     max-height: 400px;
+    background-color: #fff;
+}
+
+.planning-table ul {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    list-style-type: "\2013\20\20"
+}
+
+.planning-table th { padding-bottom: 1ex; }
+.planning-table > .ta-header th:first-of-type { border-bottom-width: 0px; }
+.planning-table > tbody > tr { border-bottom: 1px dashed #cccccc; }
+.planning-table > tbody > tr:last-of-type { border-bottom-width: 0px; }
+
+.planning-table > tbody > tr td {
+    padding-top: .5ex;
+    padding-bottom: .5ex;
+}
+
+.planning-table > .ta-header th {
+    padding-top: 1ex;
+    font-style: normal;
+    font-weight: bold;
+}
+
+.planning-table > .ta-header > tr > th:first-of-type { width: auto; }
+
+.planning-table > tbody > tr > td:last-of-type > table > tbody > tr >
+    td:first-of-type, .planning-table .task-head { width: 50ch; }
+
+.planning-table > tbody > tr > td:last-of-type > table > tbody > tr >
+    td:last-of-type, .planning-table .assignee-head { width: 30ch; }
+
+.planning-table .identical td { color: gray; }
+.planning-table .identical td:last-of-type {
+    font-style: italic;
+    text-align: center;
+    padding-top: 1ex;
+    padding-bottom: 1ex;
 }
 
