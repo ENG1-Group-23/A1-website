@@ -43,12 +43,6 @@ td {
 }
 
 #deptinfo { font-style: italic; }
-.todo {
-    background-color: red;
-    /*
-    display: none;
-    */
-}
 
 .uml {
     max-width: 100%;
